@@ -1,0 +1,12 @@
+server:
+  port: 17779
+
+  spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/databasedb
+      username: root
+      password: Data#123456!
+    jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
