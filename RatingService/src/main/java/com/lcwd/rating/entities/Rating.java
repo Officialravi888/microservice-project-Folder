@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name = "user_rating")
 public class Rating {
     @Id
-    private String ratingId;
+    private int ratingId;
     private String userId;
     private String hotelId;
     private int rating;
